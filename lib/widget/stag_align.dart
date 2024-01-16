@@ -8,7 +8,7 @@ class stg_align extends StatelessWidget {
   Widget build(BuildContext context) {
     return AlignedGridView.count(
       scrollDirection: Axis.vertical,
-      crossAxisCount: 8,
+      crossAxisCount: 2,
       crossAxisSpacing: 8,
       mainAxisSpacing: 8,
       itemCount: 20,
